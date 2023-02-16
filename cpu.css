@@ -1,0 +1,26 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+#download-btn,
+#download-btn-2 {
+  background-color: #4caf50; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: all 0.2s ease-in-out;
+}
+#download-btn:hover,
+#download-btn-2:hover {
+  background-color: #3e8e41; /* Darker green */
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
